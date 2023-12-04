@@ -1,0 +1,15 @@
+{
+  "name": "klassijs-sbfactory",
+  "version": "1.0.0",
+  "description": "Control all global variables used in the packages conforming Klassi JS framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "git@github.com:klassijs/klassijs-sbfactory.git",
+  "author": "Carlos Bermejo Pérez <carlosbermejop@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
