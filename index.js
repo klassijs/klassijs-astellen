@@ -22,5 +22,4 @@ function switchboardFactory() {
 }
 
 // Exporting ASB as a constant object
-// export const ASB = switchboardFactory();
 module.exports = {ASB: switchboardFactory()}
