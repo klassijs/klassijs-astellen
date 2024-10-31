@@ -1,15 +1,25 @@
-const switchboardFactory = function () {
+function switchboardFactory() {
   const switchboard = new Map();
-  switchboard.set('alreadyFailed', false);
+  switchboard.set("alreadyFailed", false);
 
   return {
-    get: function (k) {
+    get(k) {
       return switchboard.get(k);
     },
-    set: function (k, v) {
+    set(k, v) {
       switchboard.set(k, v);
     },
+    print() {
+      console.log(" --->   Switchboard contents:");
+      for (const [key, value] of switchboard.entries()) {
+        console.log(`  └──>  "${key}": "${value}"`);
+      }
+    },
+    reset() {
+      switchboard.clear();
+    }
   };
-};
+}
 
-module.exports = { SBF: switchboardFactory() };
+// Exporting ASB as a constant object
+export const ASB = switchboardFactory();
