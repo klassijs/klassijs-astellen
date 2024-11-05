@@ -21,5 +21,5 @@ function switchboardFactory() {
   };
 }
 
-// Exporting ASB as a constant object
-module.exports = {ASB: switchboardFactory()}
+// Exporting astellen as a constant object
+module.exports = {astellen: switchboardFactory()}

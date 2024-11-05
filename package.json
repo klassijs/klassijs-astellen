@@ -4,7 +4,18 @@
   "description": "Control all global variables used in the packages conforming Klassi JS framework.",
   "main": "index.js",
   "repository": "git@github.com:klassijs/klassijs-getsetter.git",
-  "author": "Carlos Bermejo Pérez <carlosbermejop@gmail.com>",
+  "creator": {
+    "name": "Larry Goddard",
+    "email": "larryg@klassitech.co.uk",
+    "twitter": "https://twitter.com/larryG_01",
+    "linkedin": "https://linkedin.com/in/larryg",
+    "youtube": "https://youtube.com/@LarryG_01"
+  },
+  "contributors": [
+    {
+      "name": "Carlos Bermejo",
+      "github": "https://github.com/carlosbermejop"
+    }
+  ],
   "license": "MIT"
-
 }
