@@ -1,6 +1,6 @@
 # Klassijs-astellen
 
-Control all Global and Environment variables used in the Klassi-JS framework.
+Control all the Global and Environment variables used in the Klassi-JS framework.
 
 ## Installation
 
@@ -16,3 +16,5 @@ const { astellen } = require('klassijs-astellen');
 astellen.set('BROWSER_NAME', chrome);
 const browserName = astellen.get('BROWSER_NAME');
 ```
+## Credit
+[Paul Grossman](https://www.linkedin.com/in/pmgrossman/)
