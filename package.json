@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Control all Global and Environment variables used in the Klassi-JS framework.",
   "main": "index.js",
-  "repository": "git@github.com:klassijs/klassijs-astellen.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/klassijs/klassijs-astellen.git"
+  },
   "creator": {
     "name": "Larry Goddard",
     "email": "larryg@klassitech.co.uk",

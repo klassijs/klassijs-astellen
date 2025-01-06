@@ -1,6 +1,6 @@
 # Klassijs-astellen
 
-Control all the Global and Environment variables used in the Klassi-JS framework.
+This is used to control all the Global and Environment variables that's used in klassi-js test framework as well as independently in your own framework/project.
 
 ## Installation
 
