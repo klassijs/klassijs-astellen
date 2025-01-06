@@ -21,5 +21,4 @@ function switchboardFactory() {
   };
 }
 
-// Exporting astellen as a constant object
 module.exports = {astellen: switchboardFactory()}

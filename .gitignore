@@ -3,3 +3,4 @@ logs
 yarn-error.log
 .idea
 .vscode
+.DS_Store
