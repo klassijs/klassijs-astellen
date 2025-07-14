@@ -7,7 +7,16 @@ function switchboardFactory() {
       return switchboard.get(k);
     },
     set(k, v) {
+      if (k === undefined || k === null) {
+        throw new Error('Key cannot be undefined or null');
+      }
       switchboard.set(k, v);
+    },
+    has(k) {
+      return switchboard.has(k);
+    },
+    delete(k) {
+      return switchboard.delete(k);
     },
     print() {
       console.log(" --->   Switchboard contents:");
